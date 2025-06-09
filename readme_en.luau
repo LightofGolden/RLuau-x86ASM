@@ -1,4 +1,4 @@
-rluaux86asmver = "RLuau-x86ASM-v0.0.1nightly"
+
 --[[
 THIS IS A NIGHTLY RELEASE BEWARE OF BUGS!!!!
 ]]
