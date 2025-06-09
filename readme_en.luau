@@ -10,8 +10,10 @@ It's not finished and will throw errors.
 
 --[[
 In order for this to work, make a folder where the emulation scripts are located and name it "registers", its CASE-SENSITIVE.
-Next add 4 IntValues, name them "eax", "ebx", "ecx", "edx", also case-sensitive
+Next add 9 NumberValues, name them "eax", "ebx", "ecx", "edx", "ebp", "edi", "eip","esi","esp", also case-sensitive.
 Make sure all values are 0.
+Next, make a folder also where the emulation scripts are located and name it "flags", also case-sensitive.
+Now make 5 BoolValues, named "cf", "of", "pf", "sf", "zf"
 Now feel free to run the script and test it out.
 ]]
 

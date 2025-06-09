@@ -1,4 +1,4 @@
-rluaux86asmver = "RLuau-x86ASM-v0.0.1nightly"
+
 --[[
 Đây là phiên bản nightly, Có thể lỗi.
 ]]
@@ -10,8 +10,10 @@ rluaux86asmver = "RLuau-x86ASM-v0.0.1nightly"
 --[[
 Để trình giả lập có thể họat động được, làm một thư mục đúng chỗ mà các script giả lập ở đó và đổi tên là "registers", đúng viết thường
 của nó.
-Đặt 4 NumberValue và đặt tên từng cái là "eax", "ebx", "ecx", "edx", nhớ đặt đúng chữ thường.
+Đặt 4 NumberValue và đặt tên từng cái là "eax", "ebx", "ecx", "edx", "ebp", "edi", "eip","esi","esp, nhớ đặt đúng chữ thường.
 Các value này phải là 0.
+Tiếp, tạo thư mục khác cũng đúng chỗ mà các script giả lập ở đó và đổi tên là "flags", đúng chữ thường luôn.
+Tạo 5 cái BoolValue và đặt tên là "cf", "of", "pf", "sf", "zf"
 Bây giờ bạn có thể chạy script và thử nghiệm.
 ]]
 
